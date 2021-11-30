@@ -1,0 +1,46 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+body{
+      display: grid;
+      place-items: center;
+      height: 100vh;
+}
+.expense-container{
+      width: fit-content;
+      display: flex;
+      flex-direction: column;
+}
+input[type="number"]{
+      border: none;
+      height: 2vw;
+      padding: 1vw;
+      border-radius: 0.2vw;
+}
+.btn-container{
+      display: flex;
+      justify-content: center;
+      margin-top: 1vw;
+}
+.income{
+      margin-right: 10px;
+      border: none;
+      background-color: green;
+      padding: 0.5vw;
+      border-radius: 0.2vw;
+      color: white;
+      cursor: pointer;
+}
+.expense{
+      border: none;
+      background-color: red;
+      padding: 0.5vw;
+      border-radius: 0.2vw;
+      color: white;
+      cursor: pointer;
+}
+.result{
+      margin-top: 1vw;
+}
